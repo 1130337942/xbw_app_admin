@@ -1,0 +1,29 @@
+.ad-box {
+    height: 100%;
+    .top {
+      padding-left: 20px;
+      background-color: #fff;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      .demo-ruleForm {
+        width: 100%;
+        .el-input {
+          width: 250px;
+        }
+      }
+      .el-form-item {
+        margin-bottom: 0px !important;
+      }
+    }
+    .table-box {
+      margin-top: 10px;
+      background-color: #fff;
+      padding: 20px;
+    }
+    .el-image {
+      border: solid 1px #eee;
+      padding: 5px 0;
+    }
+    .paginationBox {text-align: center;}
+}

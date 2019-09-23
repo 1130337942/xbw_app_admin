@@ -1,0 +1,27 @@
+.ad-box,.panelBox{
+    min-height: calc(100% - 15px);
+    .top{
+        padding-left: 20px;
+        background-color: #ffffff !important;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        .demo-ruleForm {
+            width: 100%;
+            .el-input {
+            width: 250px;
+            }
+        }
+        .el-form-item {
+            margin-bottom: 0px !important;
+        }
+    }
+    .table-box{
+        margin-top: 10px;
+        background-color: #fff;
+        padding: 20px;
+    }
+    .carousel-index{
+      z-index: 5000;
+    }
+}

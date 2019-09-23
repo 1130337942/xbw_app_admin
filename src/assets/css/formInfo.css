@@ -1,0 +1,132 @@
+.home {
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.home .formTitle {
+  margin: 30px 50px;
+  font-size: 20px;
+  max-width: 800px;
+}
+.home .formBox {
+  max-width: 800px;
+  padding: 0 30px;
+  margin-left: 50px;
+}
+.home .backImg {
+  background: url('../images/back.png') no-repeat;
+  background-size: 44px 44px;
+}
+.home .image,
+.home .backImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  z-index: 1000;
+}
+.home .ac-box {
+  width: 80%;
+  height: 100%;
+  margin: 20px auto 0;
+}
+.home .ac-box .avatar-uploader {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+}
+.home .ac-box .avatar-uploader:hover {
+  border-color: #409eff;
+}
+.home .ac-box .avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+}
+.home /deep/ .ql-container {
+  height: 350px;
+}
+.home /deep/ .ql-picker {
+  line-height: 24px;
+}
+.home /deep/ .el-tag--medium {
+  height: 32px;
+  line-height: 28px;
+  margin-right: 10px;
+}
+.home .imageCon {
+  width: 120px;
+  height: 120px;
+  border: 1px dashed #c0ccda;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 120px;
+  cursor: pointer;
+  position: relative;
+}
+.home .imageCon .avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+}
+.home .imageCon .imageCon-icon-delete {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 120px;
+  font-size: 20px;
+  display: none;
+  color: #ffffff;
+}
+.home .imageCon:hover .imageCon-icon-delete {
+  display: block;
+}
+.home .imageCon {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.home .flex_container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.home .flex_container .flex_item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.home .el-tag + .el-tag {
+  margin-left: 10px;
+}
+.home .button-new-tag {
+  margin-left: 10px;
+  height: 32px;
+  line-height: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.home .input-new-tag {
+  width: 90px;
+  margin-left: 10px;
+  vertical-align: bottom;
+}

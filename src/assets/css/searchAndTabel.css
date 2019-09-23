@@ -1,0 +1,107 @@
+.ad-box,
+.panelBox {
+  min-height: calc(85%);
+}
+.ad-box .top,
+.panelBox .top,
+.ad-box .searchBox,
+.panelBox .searchBox {
+  padding-left: 20px;
+  background-color: #ffffff !important;
+  min-height: 100px;
+  align-items: center;
+}
+.ad-box .top .demo-ruleForm,
+.panelBox .top .demo-ruleForm,
+.ad-box .searchBox .demo-ruleForm,
+.panelBox .searchBox .demo-ruleForm {
+  width: 100%;
+}
+.ad-box .top .demo-ruleForm .el-input,
+.panelBox .top .demo-ruleForm .el-input,
+.ad-box .searchBox .demo-ruleForm .el-input,
+.panelBox .searchBox .demo-ruleForm .el-input,
+.ad-box .top .demo-ruleForm .el-option,
+.panelBox .top .demo-ruleForm .el-option,
+.ad-box .searchBox .demo-ruleForm .el-option,
+.panelBox .searchBox .demo-ruleForm .el-option {
+  width: 250px;
+}
+.ad-box .top .el-form,
+.panelBox .top .el-form,
+.ad-box .searchBox .el-form,
+.panelBox .searchBox .el-form {
+  padding-top: 10px !important;
+}
+.ad-box .top .el-form-item,
+.panelBox .top .el-form-item,
+.ad-box .searchBox .el-form-item,
+.panelBox .searchBox .el-form-item {
+  margin-bottom: 0px !important;
+  margin-bottom: 10px !important;
+}
+.ad-box .table-box,
+.panelBox .table-box {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+}
+.ad-box .table-box .moreText,
+.panelBox .table-box .moreText {
+  max-height: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.ad-box .table-box .backImg,
+.panelBox .table-box .backImg {
+  cursor: pointer;
+  background: url('../images/back.png') no-repeat;
+  background-size: 44px 44px;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.ad-box .table-box .table-Button-right,
+.panelBox .table-box .table-Button-right {
+  display: block;
+  float: right;
+}
+.ad-box .tableDialogForm,
+.panelBox .tableDialogForm {
+  width: 80%;
+  min-width: 450px;
+  margin: 0 auto;
+}
+.ad-box .tableDialogForm .imageCon,
+.panelBox .tableDialogForm .imageCon {
+  width: 120px;
+  height: 120px;
+  border: 1px dashed #c0ccda;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+.ad-box .tableDialogForm .imageCon .imageCon_icon,
+.panelBox .tableDialogForm .imageCon .imageCon_icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+}
+.ad-box .tableDialogForm .footer .el-button,
+.panelBox .tableDialogForm .footer .el-button {
+  width: 120px;
+  margin-left: 10px;
+}
+.ad-box .carousel-index,
+.panelBox .carousel-index {
+  z-index: 5000;
+}

@@ -1,0 +1,151 @@
+.home {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .formTitle {
+      margin:30px 50px;
+      font-size:20px;
+      max-width: 800px;
+    }
+    .formBox {
+      max-width: 800px;
+      padding:0 30px;
+      margin-left: 50px;
+      // margin: 0 auto;
+  }
+    // .el-button {
+    //   width: 100px;
+    //   margin-top: 10px;
+    //   margin-left: 90px;
+    // }
+    .backImg {
+      background: url('../images/back.png') no-repeat;
+      background-size: 44px 44px;
+    }
+    .image,.backImg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 44px;
+      height: 44px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    .ac-box {
+      width: 80%;
+      height: 100%;
+      margin: 20px auto 0;
+      .avatar-uploader {
+        border: 1px dashed #d9d9d9;
+        border-radius: 6px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        width: 80px;
+        height: 80px;
+      }
+      .avatar-uploader:hover {
+        border-color: #409eff;
+      }
+      .avatar-uploader-icon {
+        font-size: 28px;
+        color: #8c939d;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        text-align: center;
+      }
+    }
+    /deep/ .ql-container {
+      height: 350px;
+    }
+    /deep/ .ql-picker {
+      line-height: 24px;
+    }
+    /deep/ .el-tag--medium {
+      height: 32px;
+      line-height: 28px;
+      margin-right: 10px;
+    }
+    // /deep/ .el-input__count {
+    //   height: 25px;
+    //   bottom: 2px;
+    //   line-height: 25px;
+    // }
+    // .el-form-item--small {
+    //   width: 100%;
+    //   /deep/ .el-form-item__content {
+    //     width: calc(100% - 90px) !important;
+    //   }
+    // }
+    .imageCon {
+      width: 120px;
+      height: 120px;
+      border: 1px dashed #c0ccda;
+      border-radius: 6px;
+      text-align: center;
+      line-height: 120px;
+      cursor: pointer;
+      position: relative;
+      .avatar-uploader-icon {
+        font-size: 28px;
+        color: #8c939d;
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        text-align: center;
+      }
+      .imageCon-icon-delete {
+          width: 120px;
+          height: 120px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: rgba(0, 0, 0, .3);
+          text-align: center;
+          line-height:120px;
+          font-size: 20px;
+          display: none;
+          color: #ffffff;
+      }
+    }
+    .imageCon:hover {
+        .imageCon-icon-delete {
+            display: block;
+        }
+    }
+    .imageCon {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      position: relative;
+      overflow: hidden;
+      
+  }
+    .flex_container {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      .flex_item {
+        margin-bottom: 10px;
+        margin-right: 10px;
+      }
+    }
+      .el-tag + .el-tag {
+          margin-left: 10px;
+      }
+      .button-new-tag {
+          margin-left: 10px;
+          height: 32px;
+          line-height: 30px;
+          padding-top: 0;
+          padding-bottom: 0;
+      }
+      .input-new-tag {
+          width: 90px;
+          margin-left: 10px;
+          vertical-align: bottom;
+      }
+  }

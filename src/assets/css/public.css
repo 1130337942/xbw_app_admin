@@ -1,0 +1,8 @@
+.main-wrap .el-main .content-box{
+    margin-top:15px;
+}
+.textCenter { text-align: center; }
+.widthFit { width: 100%;}
+.heightFit {height: 100%;}
+.el-table .tabelChildren {background: #EBEEF5 !important;}
+.el-table .tabelParent {background: #ffffff !important;}
